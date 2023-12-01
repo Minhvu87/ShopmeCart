@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head th:replace="fragments :: page_head('Home - Shopme Admin', 'none')" />
+<body>
+<div class="container-fluid">
+	<div th:replace="navigation :: menu"></div>
+	<div>
+		<h2>Shopme Control Panel</h2>
+		Welcome 
+		<a th:href="@{/account}" 
+			sec:authentication="principal.fullname"></a>	
+		<span sec:authentication="principal.authorities"></span>		
+	</div>
+
+	<div class="row m-1">
+		<th:block sec:authorize="hasAuthority('Admin')">
+			<div th:replace="dashboard/general_info :: content" />
+			<div th:replace="dashboard/user_summary :: content" />
+		</th:block>
+		
+		<th:block sec:authorize="hasAnyAuthority('Admin', 'Editor')">
+			<div th:replace="dashboard/category_summary :: content" />
+			<div th:replace="dashboard/brand_summary :: content" />
+		</th:block>
+		
+		<th:block sec:authorize="hasAnyAuthority('Admin', 'Editor', 'Salesperson', 'Shipper')">
+			<div th:replace="dashboard/product_summary :: content" />
+		</th:block>
+		
+		<th:block sec:authorize="hasAnyAuthority('Admin', 'Assistant')">
+			<div th:replace="dashboard/question_summary :: content" />
+			<div th:replace="dashboard/review_summary :: content" />
+		</th:block>
+		
+		<th:block sec:authorize="hasAnyAuthority('Admin', 'Salesperson')">
+			<div th:replace="dashboard/customer_summary :: content" />
+			<div th:replace="dashboard/shipping_rate_summary :: content" />
+		</th:block>							
+		
+		<th:block sec:authorize="hasAnyAuthority('Admin', 'Salesperson', 'Shipper')">
+			<div th:replace="dashboard/order_summary :: content" />
+		</th:block>		
+		
+		<th:block sec:authorize="hasAnyAuthority('Admin', 'Editor')">
+			<div th:replace="dashboard/article_summary :: content" />
+			<div th:replace="dashboard/menu_summary :: content" />
+		</th:block>
+		
+		<th:block sec:authorize="hasAuthority('Admin')">		
+			<div th:replace="dashboard/section_summary :: content" />
+			<div th:replace="dashboard/setting_summary :: content" />
+		</th:block>		
+	</div>
+
+	<div th:replace="fragments :: footer"></div>
+	
+</div>
+</body>
+</html>
