@@ -65,6 +65,50 @@
 			</tbody>
 		</table>
 	</div>
+	<div class="less-details">
+		<div th:each="question : ${listQuestions}" class="row m-1">
+			<div class="col-2">
+				<span>[[${question.id}]]</span>
+			</div>
+			<div class="col-10">
+				<div class="mb-1">
+					<a th:href="@{'/products/detail/' + ${question.product.id}}" class="link-product-detail" th:title="${question.product.shortName}">[[${question.product.shortName}]]</a>
+				</div>
+				
+				<div class="mb-1">
+					<span><i>[[${question.questionContent}]]</i></span>
+				</div>
+				<div class="mb-1">
+					&nbsp;
+					<small><div th:replace="fragments :: format_time(${question.askTime})"></div></small>
+					&nbsp;
+				</div>
+				<div>
+					<a class="fas fa-file-alt fa-2x icon-green link-detail"
+						th:href="@{'/questions/detail/' + ${question.id}}"
+						title="View details of this question"
+						></a>
+					&nbsp;
+					<a th:if="${question.approved == true}" class="fas fa-check-circle fa-2x icon-green"
+						th:href="@{'/questions/' + ${question.id} + '/disapprove'}"
+						title="Disapprove this question"
+						>
+					</a>
+					&nbsp;
+					<a th:unless="${question.approved == true}" class="fas fa-circle fa-2x icon-dark"
+						th:href="@{'/questions/' + ${question.id} + '/approve'}"
+						title="Approve this question"
+						>
+					</a>
+					&nbsp;
+					<div th:replace="fragments :: edit('question', '/questions/edit/' + ${question.id})" />
+					&nbsp; 
+					<div th:replace="fragments :: delete('question', ${question.id}, '/questions/delete/' + ${question.id}, true)" />										
+				</div>
+			</div>
+			<div>&nbsp;</div>
+		</div>	
+	</div>
 	
 		
 	<div th:replace="fragments :: pagination('questions')"></div>

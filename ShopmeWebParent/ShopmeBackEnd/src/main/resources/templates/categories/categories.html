@@ -55,6 +55,28 @@
 				</tbody>
 			</table>
 		</div>
+		<div class="less-details">
+			<div th:each="cat : ${listCategories}" class="row m-1">
+				<div class="col-4">
+					<img th:src="@{${cat.imagePath}}" style="width: 100px"
+						class="img-fluid" />
+				</div>
+				<div class="col-8">
+					<div>[[${cat.name}]]</div>
+					<div class="mt-2">
+						<div
+							th:replace="fragments :: status(${cat.enabled}, 'category', '/categories/' + ${cat.id})" />
+						&nbsp;
+						<div
+							th:replace="fragments :: edit('category', '/categories/edit/' + ${cat.id})" />
+						&nbsp;
+						<div
+							th:replace="fragments :: delete('category', ${cat.id}, '/categories/delete/' + ${cat.id}, ${!cat.hasChildren})" />
+					</div>
+				</div>
+				<div>&nbsp;</div>
+			</div>
+		</div>
 
 		
 

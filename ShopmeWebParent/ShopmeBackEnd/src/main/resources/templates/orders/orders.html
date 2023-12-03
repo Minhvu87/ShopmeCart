@@ -74,6 +74,34 @@
 				</tbody>
 			</table>
 		</div>
+		<div class="less-details">
+			<th:block th:each="order : ${listOrders}">
+				<div class="row m-1">
+					<div class="col-2">[[${order.id}]]</div>
+					<div class="col-10">
+						<div>[[${order.customer.fullName}]], [[${order.country}]]</div>
+						<div>
+							<small>[[${order.orderTime}]] - [[${order.status}]]</small>
+						</div>
+						<div>
+							<div th:replace="fragments :: format_currency(${order.total})">Total</div>
+							- [[${order.paymentMethod}]]
+						</div>
+						<div>
+							<a class="fas fa-file-alt fa-2x icon-green linkOrderDetail"
+								th:href="@{'/orders/detail/' + ${order.id}}"
+								title="View details of this order"></a> &nbsp;
+							<div
+								th:replace="fragments :: edit('order', '/orders/edit/' + ${order.id})" />
+							&nbsp;
+							<div
+								th:replace="fragments :: delete('order', ${order.id}, '/orders/delete/' + ${order.id}, true)" />
+						</div>
+					</div>
+				</div>
+				<div>&nbsp;</div>
+			</th:block>
+		</div>
 
 		
 

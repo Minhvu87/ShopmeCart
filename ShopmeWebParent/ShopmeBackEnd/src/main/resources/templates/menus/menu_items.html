@@ -52,7 +52,37 @@
 		</table>
 	</div>
 	
-	
+	<div class="less-details">
+		<th:block th:each="menuItem : ${listMenuItems}">
+			<div class="row m-1">
+				<div class="col-1">[[${menuItem.id}]]</div>
+				<div class="col">
+					<b>[[${menuItem.title}]]</b> <i>([[${menuItem.type}]])</i>
+				</div>
+			</div>
+			<div class="row m-1">
+				<div class="col-2">
+					<div th:replace="fragments :: status(${menuItem.enabled}, 'menu item', '/menus/' + ${menuItem.id})" />			
+				</div>
+				<div class="col-2">
+					<a th:href="@{'/menus/up/' + ${menuItem.id}}" class="fas fa-chevron-up fa-2x" title="Move this menu item up"></a>
+				</div>
+				<div class="col-2">					
+					<span class="m-3">[[${menuItem.position}]]</span>
+				</div>
+				<div class="col-2">
+					<a th:href="@{'/menus/down/' + ${menuItem.id}}" class="fas fa-chevron-down fa-2x" title="Move this menu item down"></a>				
+				</div>
+				<div class="col-2">
+					<div th:replace="fragments :: edit('menu item', '/menus/edit/' + ${menuItem.id})" />
+				</div>
+				<div class="col-2"> 
+					<div th:replace="fragments :: delete('menu item', ${menuItem.id}, '/menus/delete/' + ${menuItem.id}, true)" />				
+				</div>
+			</div>
+			<div>&nbsp;</div>
+		</th:block>
+	</div>
 	
 	<div th:replace="modal_fragments :: confirm_modal" />
 	
