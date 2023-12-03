@@ -1,4 +1,3 @@
 # ShopmeCart
-admin: https://spring-shopme-admin-25a262e6b73d.herokuapp.com/
-/br
+admin: https://spring-shopme-admin-25a262e6b73d.herokuapp.com/ \\
 user: https://spring-shopme-frontend-a8bd958a75d2.herokuapp.com/
