@@ -29,8 +29,8 @@ spring:
             - email
             - profile
           facebook:
-            client-id: 383630090108913
-            client-secret: a1ab335184027c1a9dd6f7e660b9c04a
+            client-id: 267286841989006
+            client-secret: c08d567db7fa0a65475d0e9a63751f3f
             scope:
             - email
             - public_profile
