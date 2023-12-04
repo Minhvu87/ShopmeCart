@@ -54,6 +54,49 @@
 				</tbody>
 			</table>
 		</div>
+		<div class="less-details p-2">
+	<th:block th:each="order : ${listOrders}">
+		<div class="row m-1">
+			<div class="card">
+				<div class="card-header">
+					<div class="row">
+						<div class="col">
+							<span>Order ID #[[${order.id}]]</span>						
+						</div>						
+						<div class="col">
+							<div class="float-right">
+								<a class="fas fa-file-alt fa-2x icon-green link-detail" 
+									th:href="@{'/orders/detail/' + ${order.id}}"></a>
+								
+								<th:block th:if="${order.returnRequested == false && order.delivered == true && order.returned == false}">
+									&nbsp;
+									<a class="fas fa-undo fa-2x icon-dark linkReturnOrder" href=""
+										th:classappend="'linkReturn' + ${order.id}"
+										th:orderId="${order.id}" 
+										title="Return this order"></a>
+								</th:block>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<div>
+						<span th:utext="${order.productNames}"></span>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div th:replace="fragments :: format_currency(${order.total})">Total</div>	
+						</div>
+						<div class="col">
+							<span th:class="'textOrderStatus' + ${order.id}">[[${order.status}]]</span>
+						</div>			
+					</div>
+					<div><small><div th:replace="fragments :: format_time(${order.orderTime})"></div></small></div>
+				</div>
+			</div>
+		</div>	
+	</th:block>
+	</div>
 
 
 		<div th:replace="fragments :: pagination('/orders', 'orders')"></div>

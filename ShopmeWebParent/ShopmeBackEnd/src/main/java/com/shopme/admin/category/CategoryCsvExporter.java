@@ -27,7 +27,7 @@ public class CategoryCsvExporter extends AbstractExporter {
 		csvWriter.writeHeader(csvHeader);
 		
 		for (Category category : listCategories) {
-			category.setName(category.getName().replace("--", "  "));
+			category.setName(category.getName());
 			csvWriter.write(category, fieldMapping);
 		}
 		
