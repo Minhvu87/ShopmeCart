@@ -28,6 +28,22 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
     <td><img width="960" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/21f62d8d-18f5-410d-8d35-bcbb7c782470"></td>
     <td></td>
   </tr>
+  <tr>
+    <td>Categories</td>
+    <td><img width="927" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/30f8b93f-6846-4721-a672-2e928c22cb31"></td>
+    <td><img width="935" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/3691429a-f383-4c5e-ad3b-7ef317faa916"></td>
+  </tr>
+  <tr>
+    <td>Brands</td>
+    <td><img width="938" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/b5aa6ebd-d38a-46f7-9eef-fda67b939b71"></td>
+    <td><img width="800" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/dd66cefb-ae7e-4d38-a9b5-b6bae8c192d8"></td>
+  </tr>
+  <tr>
+    <td>Products</td>
+    <td><img width="947" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/d317ce03-9b1c-43b4-8536-60ddabb29e0d"></td>
+    <td><img width="943" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/7f7e6691-ced9-46e6-b675-a5a24b0d4c23">
+</td>
+  </tr>
   
   
 </table>
