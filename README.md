@@ -41,12 +41,22 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
   <tr>
     <td>Products</td>
     <td><img width="947" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/d317ce03-9b1c-43b4-8536-60ddabb29e0d"></td>
-    <td><img width="943" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/7f7e6691-ced9-46e6-b675-a5a24b0d4c23">
-</td>
+    <td><img width="943" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/7f7e6691-ced9-46e6-b675-a5a24b0d4c23"></td>
+  </tr>
+  <tr>
+    <td>Product Detail</td>
+    <td><img width="854" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/02435ebb-4037-4b74-8c00-4a47f38f4209"></td>
+    <td><img width="939" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/1ea72076-c837-4504-92dd-50bfdbc9665d"></td>
+  </tr>
+  <tr>
+    <td>Customer</td>
+    <td><img width="960" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/b542c019-945a-4e72-b6d0-da5d9f8942c2"></td>
   </tr>
   
   
+  
 </table>
+
 # Prerequisites
 <ul>
   <li>Spring Security</li>
@@ -61,10 +71,5 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
   <li>Spring Boot oauth2-client</li></li>
 </ul>
 
-# Working Preview
-admin:
-<img width="944" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/481819ee-01a3-498e-9c37-f480e21914bd">
 
-user:
-<img width="940" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/e11d9ec8-5691-4857-b97f-857236a3c657">
 
