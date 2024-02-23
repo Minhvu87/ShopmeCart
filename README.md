@@ -22,6 +22,14 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
     <td>Shipping Rates</td>
     <td>Order</td>
     <td>Shopping cart</td>
+    <td>Checkout</td>
+    <td>Sales Report</td>
+    <td>Article</td>
+    <td>Menus</td>
+    <td>Setting</td>
+    <td>Section</td>
+    <td>Question</td>
+    <td>Review</td>
   </tr>
   <tr>
     <td>Admin</td>
@@ -38,6 +46,14 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
     <td><img width="932" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/cc88ba67-4135-4aa2-9a8d-7a028fe9b664">
     <img width="945" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/c15c3e30-3c70-43ad-a1ae-99f6d9f6533a"></td>
     <td></td>
+    <td></td>
+    <td><img width="940" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/e2740e9b-e5bc-4c22-8d18-df28d361f102"></td>
+    <td><img width="935" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/45d7abde-4694-428a-97ad-781980196227"></td>
+    <td><img width="937" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/80fb4ac9-3fb2-4dcf-b9d8-90f79b8e8ff4"></td>
+    <td><img width="940" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/8501f73b-4842-4033-94e0-b9dd2173ce5d"></td>
+    <td><img width="948" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/895c10a8-9766-413c-a635-da122c168b7d"></td>
+    <td><img width="924" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/d7cad0f7-73ef-4bb1-90c9-571a5faee869"></td>
+    <td><img width="938" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/94c58c4f-cdba-44a8-aa79-03b9300dc74d"></td>
   </tr>
   <tr>
     <td>User</td>
@@ -52,59 +68,20 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
     <td></td>
     <td></td>
     <td><img width="939" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/bd3eb331-2fae-4f4f-b8c9-634b7535726a"></td>
-    <td><img width="939" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/526c292e-be03-4cc1-904f-3e0974574726"></td>
-  </tr>
-    
-  
-  <tr>
-    <td>Checkout</td>
-    <td></td>
+    <td><img width="954" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/b8a3676e-c654-4fd0-ab5e-802d6ea02c54"></td>
     <td><img width="922" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/e43588b9-41ad-4731-ac49-70ed46cc97d3">
     <img width="947" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/a2ae1057-faa7-42ca-bfcc-9caf2932306d">
-</td>
-  </tr>
-  <tr>
-    <td>Sales Report</td>
-    <td><img width="940" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/e2740e9b-e5bc-4c22-8d18-df28d361f102"></td>
     <td></td>
-  </tr>
-  <tr>
-    <td>Article</td>
-    <td><img width="935" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/45d7abde-4694-428a-97ad-781980196227"></td>
     <td><img width="719" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/4c4f959a-c00c-4d72-b051-e35840d67b9b"></td>
-  </tr>
-  <tr>
-    <td>Menus</td>
-    <td><img width="937" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/80fb4ac9-3fb2-4dcf-b9d8-90f79b8e8ff4"></td>
     <td></td>
-  </tr>
-  <tr>
-    <td>Setting</td>
-    <td><img width="940" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/8501f73b-4842-4033-94e0-b9dd2173ce5d"></td>
     <td></td>
-  </tr>
-  <tr>
-    <td>Section</td>
-    <td><img width="948" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/895c10a8-9766-413c-a635-da122c168b7d"></td>
     <td></td>
-  </tr>
-  <tr>
-    <td>Question</td>
-    <td><img width="924" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/d7cad0f7-73ef-4bb1-90c9-571a5faee869"></td>
     <td><img width="940" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/42368d3c-03d4-4ea2-9d9c-73088cad3438">
-    <img width="461" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/ad177a0e-430c-4f74-b2b7-dbbc433972bb">
-</td>
+    <img width="461" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/ad177a0e-430c-4f74-b2b7-dbbc433972bb"></td>
+     <td><img width="872" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/4a745030-2a0a-4a2f-8bdd-31c4ff06238c">
+    <img width="520" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/de06d360-d35e-4807-9671-7173b4b82918"></td>
   </tr>
-  <tr>
-    <td>Review</td>
-    <td><img width="938" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/94c58c4f-cdba-44a8-aa79-03b9300dc74d"></td>
-    <td><img width="872" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/4a745030-2a0a-4a2f-8bdd-31c4ff06238c">
-    <<img width="520" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/de06d360-d35e-4807-9671-7173b4b82918">
 
-    </td>
-  </tr>
-    
-  
 </table>
 
 # Prerequisites
