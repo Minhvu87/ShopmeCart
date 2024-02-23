@@ -23,6 +23,11 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
     <td><img width="960" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/eccf2492-6b89-487d-8887-c0f3031620b0"></td>
     <td><img width="930" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/5a5813bb-2587-47cc-92b1-b6aa4c084cc4"></td>
   </tr>
+  <tr>
+    <td>User</td>
+    <td><img width="929" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/76e9a630-80fb-49dd-953e-13838a377ee1">
+</td>
+  </tr>
   
   
 </table>
