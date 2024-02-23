@@ -142,6 +142,7 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
 
 # Table of Contents
 ### Admin - User,Categorie,Brand,Product, Customer, Shipping rate page:
+<b>Summary</b>
 <ul>
   <li>Search</li>
   <li>Sorting :ID, firstname,lastname, email,enale</li>
@@ -152,19 +153,9 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
 </ul>
 
 ### Admin - Product Detail
- <b>Summary</b> Overview, Description, Image, Details 
-<ul>
-  <li>Overview <img style width="30%" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/eebefe98-e3ea-4a0f-96e7-c0ee357ca248">
-</li>
-  <li>Description <img style width="30%" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/68d3cc99-4547-42e7-ab3f-316ee39fe6a0">
-</li>
-  <li>Image <img style width="30%" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/cd20f53d-acb8-426a-8845-ffe2527663fd">
-</li>
-  <li>Details <img style width="30%" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/27319f90-2cce-4191-89c9-ed5f469c1015">
-</li>
-  <li>Shipping <img style width="30%" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/7c21acfb-8289-496c-9911-83ff810a11f0">
-</li>
-</ul>
+ <b>Summary: </b> Overview, Description, Image, Details 
+### Admin -  Order
+ <b>Summary: </b> 
 
 
 
