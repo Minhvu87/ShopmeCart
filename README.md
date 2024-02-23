@@ -60,7 +60,9 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
   </tr>
   <tr>
     <td>Order</td>
-    <td><img width="932" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/cc88ba67-4135-4aa2-9a8d-7a028fe9b664"></td>
+    <td><img width="932" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/cc88ba67-4135-4aa2-9a8d-7a028fe9b664">
+    <img width="945" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/c15c3e30-3c70-43ad-a1ae-99f6d9f6533a">
+</td>
     <td><img width="939" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/bd3eb331-2fae-4f4f-b8c9-634b7535726a"></td>
   </tr>
   <tr>
@@ -71,7 +73,9 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
   <tr>
     <td>Checkout</td>
     <td></td>
-    <td><img width="922" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/e43588b9-41ad-4731-ac49-70ed46cc97d3"></td>
+    <td><img width="922" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/e43588b9-41ad-4731-ac49-70ed46cc97d3">
+    <img width="947" alt="image" src="https://github.com/Minhvu87/ShopmeCart/assets/44714241/a2ae1057-faa7-42ca-bfcc-9caf2932306d">
+</td>
   </tr>
   <tr>
     <td>Sales Report</td>
