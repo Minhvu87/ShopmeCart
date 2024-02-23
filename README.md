@@ -5,6 +5,13 @@ user: https://spring-shopme-frontend-a8bd958a75d2.herokuapp.com/
 
 # Getting started
 Shopme is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any product that needs foundational commerce primitives.
+
+# Overview
+<table>
+  <tr>
+    <td>Admin</td>
+    <td>User</td>
+</table>
 # Prerequisites
 <ul>
   <li>Spring Security</li>
