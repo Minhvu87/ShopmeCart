@@ -142,7 +142,7 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
 
 # Table of Contents
 ### Admin - User,Categorie,Brand,Product, Customer, Shipping rate page:
-<b>Summary</b>
+<b>Summary:</b> Each page has function:
 <ul>
   <li>Search</li>
   <li>Sorting :ID, firstname,lastname, email,enale</li>
@@ -153,7 +153,7 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
 </ul>
 
 ### Admin - Product Detail
- <b>Summary: </b> Overview, Description, Image, Details 
+ <b>Summary: </b> Overview, Description, Image, Details of products
 ### Admin -  Order
  <b>Summary: </b> 
 
