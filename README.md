@@ -141,9 +141,16 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
 </table>
 
 # Table of Contents
-### Admin, User: Register, Login
-<b>Summary:</b> 
-### Admin - User,Categorie,Brand,Product, Customer, Shipping rate page:
+### Back End: Admin, Editor, Salesperson, Shipper, Assistant
+<p>Admin: manage everything: manage users, manage setting</p>
+<p>Editor: manage categories, manage articles, manage menus, manage products, manage brands</p>
+<p>Salespersons: manage shipping rates, view products, update product price,
+manage orders, manage customers, manage sales report</p>
+<p>Shipper: view orders, update order status, view products</p>
+<p>Assistant: manage questions, manage reviews</p>
+### Font End: Visitor, Customer
+Visitor: view products, sign up, view articles
+Customer: view orders, manage shopping cart, checkout, manage addresses, vote questions, vote reviews, view articles, view products, post reviews
 <b>Summary:</b> Each page has function:
 <ul>
   <li>Search</li>
@@ -154,16 +161,7 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
   <li>Enable to show data in user web</li>
 </ul>
 
-### Admin - Product Detail
- <b>Summary: </b> Overview, Description, Image, Details of products
-### Admin -  Order
- <b>Summary: </b> 
-### User - Shopping Cart
- <b>Summary: </b>
-### User - Checkout
- <b>Summary: </b>
-### Admin, User - Review, Question
- <b>Summary: </b>
+
 
 
 
