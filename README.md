@@ -142,21 +142,22 @@ Shopme is a set of commerce modules and tools that allow you to build rich, reli
 
 # Table of Contents
 ### Back End: Admin, Editor, Salesperson, Shipper, Assistant
-<p>Admin: manage everything: manage users, manage setting</p>
-<p>Editor: manage categories, manage articles, manage menus, manage products, manage brands</p>
-<p>Salespersons: manage shipping rates, view products, update product price,
+<p><b>Admin</b>: manage everything: manage users, manage setting</p>
+<p><b>Editor</b>: manage categories, manage articles, manage menus, manage products, manage brands</p>
+<p><b>Salespersons</b>: manage shipping rates, view products, update product price,
 manage orders, manage customers, manage sales report</p>
-<p>Shipper: view orders, update order status, view products</p>
-<p>Assistant: manage questions, manage reviews</p>
-### Font End: Visitor, Customer
-Visitor: view products, sign up, view articles
-Customer: view orders, manage shopping cart, checkout, manage addresses, vote questions, vote reviews, view articles, view products, post reviews
-<b>Summary:</b> Each page has function:
+<p><b>Shipper</b>: view orders, update order status, view products</p>
+<p><b>Assistant</b>: manage questions, manage reviews</p>
+
+### Front End: Visitor, Customer
+<p><b>Visitor</b>: view products, sign up, view articles</p>
+<p><b>Customer</b>: view orders, manage shopping cart, checkout, manage addresses, vote questions, vote reviews, view articles, view products, post reviews</p>
+
+<p>Users, Category, Brand, Product, Customer,Shipping rates,.. Each page has function:</p>
 <ul>
   <li>Search</li>
   <li>Sorting :ID, firstname,lastname, email,enale</li>
   <li>panigition</li>
-  <li>Login, logout User, Show Account Detail</li>
   <li>Export filepdf, excel,csv</li>
   <li>Enable to show data in user web</li>
 </ul>
